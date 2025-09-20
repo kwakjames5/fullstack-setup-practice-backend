@@ -9,7 +9,7 @@ app.add_middleware(
     CORSMiddleware,
     allow_origins=[
         "http://localhost:3000",  # Local development
-        "https://fullstack-setup-practice-frontend.vercel.app/",  # Your actual Vercel URL
+        "https://fullstack-setup-practice-frontend.vercel.app",  # Your actual Vercel URL
         "https://*.vercel.app",   # All Vercel deployments
     ],
     allow_credentials=True,
