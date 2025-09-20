@@ -10,7 +10,7 @@ app.add_middleware(
     allow_origins=[
         "http://localhost:3000",  # Local development
         "fullstack-setup-practice-frontend-5orv1icqf.vercel.app",  # Updated to not have trailing /, deployment URL
-        "https://fullstack-setup-practice-frontend.vercel.app/", # domain url
+        "https://fullstack-setup-practice-frontend.vercel.app", # domain url
         "https://*.vercel.app",   # All Vercel deployments
     ],
     allow_credentials=True,
